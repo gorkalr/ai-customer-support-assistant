@@ -47,17 +47,20 @@ Provides assistance during an active customer-support conversation rather than o
 
 ## 🖥️ Frontend
 
-The frontend is developed using **Streamlit**, providing an interactive interface for the customer-support agent.
+* Built using **Streamlit** to provide an interactive customer-support dashboard.
+* Enables support agents to manage and respond to customer conversations in real time.
+* Displays **AI-generated response suggestions** and conversation insights.
+* Visualizes **Customer Sentiment, Patience Meter, Trust Score, and Promise Tracker**.
 
-The interface is designed to present important AI-generated insights in an easy-to-understand manner, including:
+## ⚙️ Backend
 
-* Customer conversation
-* Suggested responses
-* Customer sentiment
-* Patience level
-* Trust level
-* Active promises
-* Real-time guidance
+* Handles **conversation processing and conversation-state management**.
+* Integrates with an **LLM API** for natural-language understanding and response generation.
+* Performs **sentiment and customer-state analysis** from conversation context.
+* Calculates and tracks **customer patience and trust levels**.
+* Detects and tracks **promises or commitments** made during the conversation.
+* Provides **context-aware, real-time response guidance** to the support agent.
+
 
 ## 🛠️ Technology Stack
 
@@ -131,16 +134,6 @@ http://localhost:8501
 
 Open this URL in your browser to access the application.
 
-### ✅ Prerequisites
-
-Before running the project, make sure you have:
-
-* Python 3.9 or later
-* pip installed
-* Internet connection
-* Required API credentials, if applicable
-* Git installed (if cloning the repository)
-
 ## 🔄 System Workflow
 
 ```text
@@ -159,26 +152,4 @@ Support Agent
 Improved Customer Interaction
 ```
 
-## 🔐 Security
 
-API keys and other sensitive credentials are not stored directly in the source code. Environment variables or secure secret-management mechanisms should be used for sensitive configuration.
-
-## 🚀 Future Enhancements
-
-* Integration with real customer-support platforms.
-* Conversation history and analytics dashboard.
-* Advanced customer emotion detection.
-* Agent performance analytics.
-* Knowledge-base/RAG integration.
-* Multilingual customer-support assistance.
-* Persistent customer profiles and interaction history.
-
-## 👨‍💻 Project Status
-
-**Frontend Development: Completed ✅**
-
-The current version focuses on the interactive Streamlit frontend and its integration-ready architecture for AI-powered customer-support assistance.
-
-## 📄 Note
-
-This project is developed as part of an internship/project initiative to explore the practical application of **Generative AI, LLMs, real-time conversational analysis, and intelligent decision support in customer service**.
