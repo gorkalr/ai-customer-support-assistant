@@ -69,6 +69,78 @@ The interface is designed to present important AI-generated insights in an easy-
 | Groq API     | LLM inference/API integration                          |
 | Git & GitHub | Version control and source-code management             |
 
+## ▶️ How to Run the Project
+
+Follow the steps below to run the Streamlit frontend locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-github-repository-link>
+cd ai-customer-support-assistant
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure API Keys
+
+If the application requires an API key, configure it securely using environment variables or Streamlit secrets.
+
+
+### 5. Run the Streamlit Application
+
+Start the frontend using:
+
+```bash
+streamlit run app.py
+```
+
+### 6. Open the Application
+
+After running the command, Streamlit will provide a local URL, usually:
+
+```text
+http://localhost:8501
+```
+
+Open this URL in your browser to access the application.
+
+### ✅ Prerequisites
+
+Before running the project, make sure you have:
+
+* Python 3.9 or later
+* pip installed
+* Internet connection
+* Required API credentials, if applicable
+* Git installed (if cloning the repository)
+
 ## 🔄 System Workflow
 
 ```text
