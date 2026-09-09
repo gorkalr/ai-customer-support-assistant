@@ -111,12 +111,7 @@ Install the required Python packages using:
 pip install -r requirements.txt
 ```
 
-### 4. Configure API Keys
-
-If the application requires an API key, configure it securely using environment variables or Streamlit secrets.
-
-
-### 5. Run the Streamlit Application
+### 4. Run the Streamlit Application
 
 Start the frontend using:
 
@@ -124,7 +119,7 @@ Start the frontend using:
 streamlit run app.py
 ```
 
-### 6. Open the Application
+### 5. Open the Application
 
 After running the command, Streamlit will provide a local URL, usually:
 
